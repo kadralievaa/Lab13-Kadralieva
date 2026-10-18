@@ -154,28 +154,28 @@
 // double f = CelsiusToFahrenheit(c);
 // Console.WriteLine($"{c}°C = {f}°F");
 
-// Вариант 10 (я плаки плаки)
-bool IsPalindrome(string word)
-{
-    word = word.ToLower();
+// // Вариант 10 (я плаки плаки)
+// bool IsPalindrome(string word)
+// {
+//     word = word.ToLower();
 
-    int left = 0;
-    int right = word.Length - 1;
+//     int left = 0;
+//     int right = word.Length - 1;
 
-    while (left < right)
-    {
-        if (word[left] != word[right])
-        {
-            return false;
-        }
-        left++;
-        right--;
-    }
-    return true;
+//     while (left < right)
+//     {
+//         if (word[left] != word[right])
+//         {
+//             return false;
+//         }
+//         left++;
+//         right--;
+//     }
+//     return true;
 
-}
-string word1 = "шалаш";
-string word2 = "привет";
+// }
+// string word1 = "шалаш";
+// string word2 = "привет";
 
-Console.WriteLine($"Слово '{word1}' - палидром? {IsPalindrome(word1)}");
-Console.WriteLine($"Слово '{word2}' - палидром? {IsPalindrome(word2)}");
+// Console.WriteLine($"Слово '{word1}' - палидром? {IsPalindrome(word1)}");
+// Console.WriteLine($"Слово '{word2}' - палидром? {IsPalindrome(word2)}");
